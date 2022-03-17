@@ -36,7 +36,7 @@
                 <div class="container clearfix ">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="logo-box clearfix">
-                        <a class="navbar-brand" href="index.blade.php">
+                        <a class="navbar-brand" href="/">
                             <img src="images/bayarSPP-6.png" class="main-logo" width="260" alt="Awesome Image" />
                         </a>
                         <button class="menu-toggler" data-target=".main-navigation">
@@ -179,7 +179,7 @@
                                         melalui DANA, OVO, atau E-Banking.</p>
                                 </li>
                             </ul><!-- /.list-unstyled -->
-                            <a href="sb-admin1/register.blade.php" class="thm-btn cta-two__btn">Daftar Segera!</a><!-- /.thm-btn -->
+                            <a href="/register" class="thm-btn cta-two__btn">Daftar Segera!</a><!-- /.thm-btn -->
                         </div><!-- /.cta-two__content -->
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
@@ -202,7 +202,7 @@
                                     Yayasan</h2><!-- /.block-title__title -->
                             </div><!-- /.block-title -->
                             <p class="cta-three__text">Semua tagihan seperti SPP, Uang Buku, Sumbangan dan lain-lain, akan lebih mudah diinformasikan dan dibayarkan oleh orang tua siswa.</p><!-- /.cta-two__tagline -->
-                            <a href="sb-admin1/register.html" class="thm-btn cta-three__btn">Daftar Segera!</a><!-- /.thm-btn -->
+                            <a href="/register" class="thm-btn cta-three__btn">Daftar Segera!</a><!-- /.thm-btn -->
                         </div><!-- /.cta-two__content -->
                     </div><!-- /.col-lg-5 -->
                 </div><!-- /.row -->
@@ -294,7 +294,7 @@
                    bayarSPP </h3><!-- /.block-title__title -->
                 <p class="cta-one__text">Sistem Pembayaran Yang Mudah Cepat Dan Aman</p>
                 <!-- /.cta-one__text -->
-                <a href="registrasi.blade.php" class="thm-btn cta-one__btn">Join Sekarang</a><!-- /.thm-btn -->
+                <a href="/register" class="thm-btn cta-one__btn">Join Sekarang</a><!-- /.thm-btn -->
             </div><!-- /.container -->
         </section><!-- /.cta-one -->
         <footer class="site-footer">
