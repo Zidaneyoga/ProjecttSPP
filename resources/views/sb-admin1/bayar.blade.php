@@ -204,7 +204,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleInputPassword1" class="form-label">Jumlah bayar</label>
+                        <label for="exampleInputPassword1" class="form-label">Jumlah Bayar</label>
                         <input class="form-control" id="disabledInput" type="text" placeholder="Rp. 100.000,00" disabled>
                     </div>
 
