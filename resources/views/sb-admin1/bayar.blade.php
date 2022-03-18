@@ -198,13 +198,14 @@
                             <div class="card-body">
 
                     <div class="form-group">
+                       <label for="exampleInputPassword1" class="form-label">Tanggal Bayar</label>
+                       <input type="text" name="tgl_sekarang" class="form-control" id="tgl_sekarang" value="<?php echo date('d-m-y'); ?>"
+                       required disabled/>
+                    </div>
+
+                    <div class="form-group">
                         <label for="exampleInputPassword1" class="form-label">Jumlah bayar</label>
                         <input class="form-control" id="disabledInput" type="text" placeholder="Rp. 100.000,00" disabled>
-                    </div>
-                      
-                    <div class="form-group">
-                        <label for="exampleInputEmail1" class="form-label">Tanggal Pembayaran</label>
-                        <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
 
                     <div class="mb-3">
