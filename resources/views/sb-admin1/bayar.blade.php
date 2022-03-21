@@ -34,7 +34,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
              <!-- Sidebar - Brand -->
-             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/user">
                 <div class="sidebar-brand-icon rotate-n-15">
                 </div>
                 <img src="img/bayarSPP-5.png" class="main-logo" width="50" alt="Awesome Image" />
@@ -198,13 +198,14 @@
                             <div class="card-body">
 
                     <div class="form-group">
-                        <label for="exampleInputPassword1" class="form-label">Jumlah bayar</label>
-                        <input class="form-control" id="disabledInput" type="text" placeholder="Rp. 100.000,00" disabled>
+                       <label for="exampleInputPassword1" class="form-label">Tanggal Bayar</label>
+                       <input type="text" name="tgl_sekarang" class="form-control" id="tgl_sekarang" value="<?php echo date('d-m-y'); ?>"
+                       required disabled/>
                     </div>
-                      
+
                     <div class="form-group">
-                        <label for="exampleInputEmail1" class="form-label">Tanggal Pembayaran</label>
-                        <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label for="exampleInputPassword1" class="form-label">Jumlah Bayar</label>
+                        <input class="form-control" id="disabledInput" type="text" placeholder="Rp. 100.000,00" disabled>
                     </div>
 
                     <div class="mb-3">
@@ -303,7 +304,7 @@
            <div class="modal-body">Tekan "Logout" jika ingin keluar dari halaman user.</div>
            <div class="modal-footer">
                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-               <a class="btn btn-primary" href="../index">Logout</a>
+               <a class="btn btn-primary" href="../">Logout</a>
            </div>
        </div>
    </div>
