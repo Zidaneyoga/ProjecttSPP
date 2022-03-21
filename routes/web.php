@@ -113,8 +113,8 @@ Route::get('/editsandii', function () {
     return view('sb-admin2.editsandii');
 });
 
-Route::get('/forgot_passwordd', function () {
-    return view('sb-admin2.forgot_passwordd');
+Route::get('/forgot-passwordd', function () {
+    return view('sb-admin2.forgot-passwordd');
 });
 
 Route::get('/history', function () {
@@ -154,7 +154,7 @@ Route::get('/profile_siswa', function () {
 });
 
 Route::get('/registerr', function () {
-    return view('sb-admin2.register');
+    return view('sb-admin2.registerr');
 });
 
 Route::get('/setting_pembayaran', function () {
